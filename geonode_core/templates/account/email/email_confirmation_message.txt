@@ -1,0 +1,41 @@
+{% load account %}{% user_display user as user_display %}{% load i18n %}{% autoescape off %}{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}
+
+Dear {{ user_display }},
+Welcome to the Alpine Convention Atlas!  
+Your registration has been successful.
+
+Please verify your email by clicking here {{ activate_url }}
+
+Get started in searching documents, layers or creating maps, log in to Alpine Convention Atlas www.atlas.alpconv.org.
+For more info on our projects and activities please check out our website www.alpconv.org.
+If you have any question do not hesitate to contact us! 
+Please note that by registering to and using the platform you agree to our terms of use http://www.atlas.alpconv.org/terms/
+
+Follow us on Twitter @alpconv  and Facebook 
+
+Best Regards, 
+
+The Alpine Convention Team!
+
+
+----
+Permanent Secretariat of the Alpine Convention
+
+Herzog-Friedrich-Str.
+A-6020 Innsbruck 
++43 0512 588 589 00
+
+Bolzano/Bozen office
+Viale Druso/Drususallee 1
+I-39100 Bolzano-Bozen
++39 0471 055 352
+
+You are receiving this because you have signed up for a new account.
+You can review the data privacy policy here http://www.atlas.alpconv.org/terms.
+You can delete your account at any moment by witing a request at this address info@alpconv.org or alpine.convention.atlas@gmail.com.
+
+{% endblocktrans %}{% endautoescape %}
+{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}
+
+ 
+{% endblocktrans %}

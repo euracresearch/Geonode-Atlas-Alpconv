@@ -1,0 +1,109 @@
+{% extends "geonode_base.html" %}
+
+{% load i18n %}
+{% block title %} {% trans "Get started" %} — {{ block.super }} {% endblock %}
+
+{% block body_outer %}
+<div class="page-header">
+<h1>GET STARTED!</h1>
+<hr> 
+<strong>CONTENT OF THIS PAGE:</strong>
+<strong>
+	<ol>
+  <li> <a href="#1">GENERAL ASPECTS</a></li>
+  <li> <a href="#2">THE CATALOGS</a></li>
+  <li> <a href="#3">THE INFO PAGE</a></li>
+  <li> <a href="#4">THE MAP VIEW</a></li>
+</ol>
+</strong>
+<hr ID="1"> 
+<br >
+<br >
+ 
+
+
+
+<strong>1. GENERAL ASPECTS</strong>
+<p style="text-align: justify;">The <strong>Alpine Convention Atlas</strong> is the place where you can discover and browse the relevant data and information concerning the Alps! Its aim is to collect, organize and disseminate the results of research activities carried out by the Alpine Convention and its Working Groups as well as by European projects in the Alpine region. Browse by category to find out more about our layers, thematic maps and documents or create and upload your own maps and layers.</p>
+
+<p style="text-align: justify;">The Alpine Convention Atlas is the repository for the data collected in the framework of the Alpine Convention activities, its Working Groups and its network. The Atlas is mostly meant to display GIS information, but it contains much more! <br></p>
+ <br> 
+
+<p style="text-align: justify;">A few info for you to get started with it: </p>
+<ul>
+<li>The Atlas includes primarily three kind of objects:  <strong><a target="_blank" rel="noopener noreferrer" href="http://www.atlas.alpconv.org/layers/?limit=20&offset=0">layers</a></strong>, <strong><a target="_blank" rel="noopener noreferrer" href="http://www.atlas.alpconv.org/maps/?limit=20&offset=0">maps</a></strong> and <strong><a target="_blank" rel="noopener noreferrer" href="http://www.atlas.alpconv.org/documents/?limit=20&offset=0">documents</a></strong> (click on the links to browse the respective catalogs, browse them from the upper menu, or use the search bar ↑).</li>
+<li><strong>LAYERS vs. MAPS: </strong>At first sight, layers and maps are very similar. But there is an important difference: a layer shows an individual dataset, whereas a thematic map is composed of several layers.  <br>
+In each layer, the spatial information is visualised and symbolised in a legend. By combining several layers into a map, you can display together different set of information, filter the attributes and use the available widgets. If you are a registered user, you can even save your map.</li>
+</ul>
+<hr ID="2"> 
+<br >
+<br >
+
+<strong>2. THE CATALOGS</strong>
+<p style="text-align: justify;">From the catalogs you can:
+<ol>
+  <li>Apply different <strong>filters</strong> (by free text, category, date and much more).</li>
+  <li><strong>Sort</strong> the objects.</li>
+  <li>Navigate to the Info page of the object. </li>
+  <li>Select different layers and then add them to a map or… </li>
+  <li>….open one directly into a map. </li>
+  <li>Upload your <strong>own layers</strong> (you need to <a target="_blank" rel="noopener noreferrer" href="http://www.atlas.alpconv.org/account/signup/">register</a> for this). </li>
+</ol>	
+</p>
+<br>
+<img height="440" src="../static/geonode/img/img_2020/getstarted/1.png" width="650" />
+<hr ID="3"> 
+<br >
+<br >
+<strong>3. THE INFO PAGE	</strong>
+<p style="text-align: justify;">From the Info page you can:
+<ol>
+<li><strong>View </strong>the layer in fullscreen by creating a map</li>
+<li><strong>Download</strong> the map in the available formats</li>
+<li>View all the <strong>metadata</strong></li>
+<li>View the <strong>legend</strong> and other linked objects</li>
+<li>Comment, rate and share the object!</li>
+</ol>	
+</p>
+<br>
+<img height="440" src="../static/geonode/img/img_2020/getstarted/2.png" width="650" />
+<hr ID="4"> 
+<br >
+<br >
+<strong >4. THE MAP VIEW	</strong>
+<p style="text-align: justify;">From the map view you can: 
+<ol>
+  <li>Open the <strong>tools</strong> menu, which includes the <strong>catalog panel</strong> (that allows you to add new layers to the map) and the print function (to export the displayed map in pdf or image)</li>
+  <li>Open the <strong>layer panel</strong> to see the visible layers, change their order and transparency, as well to access other advanced options if you are a registered user.</li>
+  <li><strong>Zoom</strong> in and out, plus other functions</li>
+  <li>Change the base map</li>
+  <li>Interrogate the map by clicking on a point.</li>
+
+	
+</p>
+<br>
+<img height="400" src="../static/geonode/img/img_2020/getstarted/3.png" width="700" />
+<br>
+<br>
+<br>
+
+<p>Through the map view you can also:
+<li>From the <strong>“Catalog panel”</strong> search the available layers and add them to the map</li>
+<li>View the displayed layers and their legends. You can also change the order they are displayed.</li>
+<li>Change the <strong>opacity</strong> of the layer.</li>
+<li>Use the advanced functions! Change the <strong>style</strong> of a layer, filter it, open the <strong>attribute table</strong>, open the metadata page, remove the layer from the map or use the fancy widgets.</li>
+</ol>
+</p>
+<br>
+<img height="400" src="../static/geonode/img/img_2020/getstarted/4.png" width="700" />
+<br>
+
+
+
+
+
+
+
+
+{% endblock %}
+

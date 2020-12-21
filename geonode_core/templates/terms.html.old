@@ -1,0 +1,19 @@
+{% extends "geonode_base.html" %}
+
+{% load i18n %}
+{% block title %} {% trans "About GeoNode" %} — {{ block.super }} {% endblock %}
+
+{% block body_outer %}
+<div class="page-header">
+  <h2>{% trans "Info ALPINE CONVENTION ATLAS" %}</h2>
+</div>
+<p>
+　　{% trans "The Report on the State of the Alps (RSA) is periodically published in order to provide information at Alpine level on ecological, economical, and social developments." %}
+
+The aim of this periodical publication is to provide a sound data and information base on the future of the Alps for stakeholders in the world of politics, management, media and science. 
+</p>
+<p>
+　　{% trans "The elaboration of the periodical issues of the Report on the State of the Alps is carried out through the cooperation of representatives of the Alpine states and of numerous networks and institutions of the Permanent Secretariat of the Alpine Convention - such as the Working Groups - as well as of scientists and experts. On the basis of the assessment of geographically homogenous data, verified and compared with the information provided by the Contracting Parties, the current situation and the trends are analyzed in order to identify at an early stage the challenges of the future. Therefore, this standard work is able to provide relevant and harmonized information for the formulation of strategies. Five Reports on the State of the Alps have been issued, all available in the official languages of the Alpine Convention and also in English:" %}
+</p>
+{% endblock %}
+

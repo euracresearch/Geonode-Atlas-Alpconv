@@ -1,0 +1,22 @@
+{% extends "geonode_base.html" %}
+
+{% load i18n %}
+{% block title %} {% trans "About GeoNode" %} — {{ block.super }} {% endblock %}
+
+{% block body_outer %}
+<div class="page-header">
+  <h2>{% trans "Info" %}</h2>
+</div>
+</p>
+<h3>The Alpine Convention</h3>
+<p>
+{% trans "The " %}<a href="www.alpconv.org">Alpine Convention</a> {% trans " is an international treaty signed in 1991 by the eight Alpine countries to pursue a coordinated protection and sustainable development of the Alps. " %}
+</p>
+<p>{% trans "The Convention has focused since its early beginning on research and on data collection: the Alpine countries envisaged the creation of a System of Observation and Information on the Alps (SOIA), a tool to collect, manage and disseminate transnational information on the topics of interest for the Alpine Convention. Its aim is to enhance the communication on the research and observation activities carried out at Alpine level by disseminating results and data, as well as to foster the integration amongst Alpine countries in the sector of research. " %}</p>
+<p>{% trans "One of the most relevant activities within the SOIA is the <b>Alpine Convention Atlas</b>: it is a tool that allows the management, the visualization and the dissemination of Alpine-wide data collected in the scope of the Alpine Convention&#39;s activities. The Atlas includes maps, documents, datasets and much more." %}</p>
+<p>{% trans "Many datasets in the Alpine Atlas are linked to the <a href="https://www.alpconv.org/en/home/soia/report-on-the-state-of-the-alps/" target="_blank">Reports on the State of the Alps</a>, a biennial publication of the Alpine Convention on selected priority topics." %}</p>
+
+<p><a href="http://www.alpconv.org/" target="_blank">Alpine Convention website</a></p>
+<p><b>Contact: </b><a href="mailto:info@alpconv.org">info@alpconv.org</a></p>
+{% endblock %}
+

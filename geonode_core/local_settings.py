@@ -58,8 +58,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'geonode',
         'USER': '',
-        'PASSWORD': '', #cssgdb03 geonode user
-        'HOST': '', #cssgdb03
+        'PASSWORD': '',
+        'HOST': '',
        # 'HOST': 'localhost',
         'PORT': '5432',
         'CONN_MAX_AGE': 5,
@@ -73,8 +73,8 @@ DATABASES = {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'geonode_data',
         'USER': '',
-        'PASSWORD': '', #cssgdb03 geonode user
-        'HOST': '', #cssgdb03
+        'PASSWORD': '',
+        'HOST': '',
        # 'HOST': 'localhost',
         'PORT': '5432',
         'CONN_MAX_AGE': 5,

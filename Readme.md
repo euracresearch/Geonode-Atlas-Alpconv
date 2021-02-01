@@ -15,4 +15,3 @@ Main external references:
 
 - [Mapstore documentation](https://docs.geonode.org/en/3.x/devel/mapstore/index.html)
 
-# test edits sdellachiesa

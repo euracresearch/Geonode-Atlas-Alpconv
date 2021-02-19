@@ -36,7 +36,7 @@ This project was funded by the Austrian Ministry
 - Simone Tritini
 
 ## Disclaimer
-The data viwable or downloadable from the [Alpine Convention Atlas](http://www.atlas.alpconv.org/) comes with no warranty and has not been validated by the data provider.
+The data viewable or downloadable from the [Alpine Convention Atlas](http://www.atlas.alpconv.org/) comes with no warranty and has not been validated by the data provider.
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](http://www.gnu.org/licenses/gpl-3.0.en.html) file for details.

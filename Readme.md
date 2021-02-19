@@ -30,10 +30,7 @@ If you would like to contribute, please fork the repository, create your branch 
 This project was funded by the Austrian Ministry
 
 ## Project team
-- Stefano Della Chiesa
-- Aureliano Piva
-- Andrea Vianello
-- Simone Tritini
+- Stefano Della Chiesa, Aureliano Piva, Andrea Vianello, Simone Tritini
 
 ## Disclaimer
 The data viewable or downloadable from the [Alpine Convention Atlas](http://www.atlas.alpconv.org/) comes with no warranty and has not been validated by the data provider.

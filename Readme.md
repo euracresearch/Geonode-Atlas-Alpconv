@@ -4,6 +4,9 @@ In the Alpine Convention Atlas you can discover and browse the relevant datasets
 Its aim is to store, manage, curate and dissemiante the results of research activities carried out by the alpine Convention and its working groups.
 The Alpine Conveniton Atlas is based on the Open Source Geospatial Content Management System [Geonode](https://geonode.org/) where you can browser the data by category to find out more about layers, maps and documents or create and upload your own layer, maps and documents.
 
+## Publication
+For more info check out our [Software description paper](https://doi.org/10.3897/rio.7.e66106)
+
 ## Geonode Atlas Alpconv
 
 This repository include all the customized folder of the Alpine Conveniton Atlas.
